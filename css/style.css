@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+ background-color:#202020;
+ text-align:center;
+ font-family:"Open Sans";
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  min-height:calc(100vh - 176px);
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  padding:48px 0 128px 0;
+  background-image:linear-gradient(to bottom right,#383838,#181818,#101010);
+  }
+
+
+.linkCard:link, 
+.linkCard:visited, 
+.linkCard:hover, 
+.linkCard:active {
+    text-decoration: none;
+    color: white;
+  }
+
+.carteBg {
+  background-image:linear-gradient(#404040,#303030);
+ color: white;
+}
+
+.carte:hover {
+  transform: scale(1.04);
+}
+
+.emprunte {
+  opacity: 0.3;
+}
